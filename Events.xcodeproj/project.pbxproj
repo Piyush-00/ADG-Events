@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		77B6CBF023143B37003AE84C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B6CBEF23143B37003AE84C /* AppDelegate.swift */; };
-		77B6CBF223143B37003AE84C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B6CBF123143B37003AE84C /* ViewController.swift */; };
 		77B6CBF523143B37003AE84C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77B6CBF323143B37003AE84C /* Main.storyboard */; };
 		77B6CBF723143B39003AE84C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77B6CBF623143B39003AE84C /* Assets.xcassets */; };
 		77B6CBFA23143B39003AE84C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77B6CBF823143B39003AE84C /* LaunchScreen.storyboard */; };
+		77B6CC0423144110003AE84C /* customTabBarControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B6CC0323144110003AE84C /* customTabBarControllerViewController.swift */; };
+		77B6CC06231441D4003AE84C /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B6CC05231441D4003AE84C /* profileViewController.swift */; };
+		77B6CC08231441EE003AE84C /* aboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B6CC07231441EE003AE84C /* aboutUsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		77B6CBEC23143B37003AE84C /* Events.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Events.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77B6CBEF23143B37003AE84C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		77B6CBF123143B37003AE84C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		77B6CBF423143B37003AE84C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		77B6CBF623143B39003AE84C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77B6CBF923143B39003AE84C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77B6CBFB23143B39003AE84C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77B6CC0323144110003AE84C /* customTabBarControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customTabBarControllerViewController.swift; sourceTree = "<group>"; };
+		77B6CC05231441D4003AE84C /* profileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileViewController.swift; sourceTree = "<group>"; };
+		77B6CC07231441EE003AE84C /* aboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutUsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +58,11 @@
 		77B6CBEE23143B37003AE84C /* Events */ = {
 			isa = PBXGroup;
 			children = (
+				77B6CC0323144110003AE84C /* customTabBarControllerViewController.swift */,
 				77B6CBEF23143B37003AE84C /* AppDelegate.swift */,
-				77B6CBF123143B37003AE84C /* ViewController.swift */,
 				77B6CBF323143B37003AE84C /* Main.storyboard */,
+				77B6CC07231441EE003AE84C /* aboutUsViewController.swift */,
+				77B6CC05231441D4003AE84C /* profileViewController.swift */,
 				77B6CBF623143B39003AE84C /* Assets.xcassets */,
 				77B6CBF823143B39003AE84C /* LaunchScreen.storyboard */,
 				77B6CBFB23143B39003AE84C /* Info.plist */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77B6CBF223143B37003AE84C /* ViewController.swift in Sources */,
+				77B6CC08231441EE003AE84C /* aboutUsViewController.swift in Sources */,
 				77B6CBF023143B37003AE84C /* AppDelegate.swift in Sources */,
+				77B6CC0423144110003AE84C /* customTabBarControllerViewController.swift in Sources */,
+				77B6CC06231441D4003AE84C /* profileViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
