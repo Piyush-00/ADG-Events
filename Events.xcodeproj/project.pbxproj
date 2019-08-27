@@ -186,6 +186,14 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		7720A1482315402F00EB67FB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				77B6CBEF23143B37003AE84C /* AppDelegate.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		77B6CBE323143B37003AE84C = {
 			isa = PBXGroup;
 			children = (
@@ -205,14 +213,14 @@
 		77B6CBEE23143B37003AE84C /* Events */ = {
 			isa = PBXGroup;
 			children = (
+				7720A1482315402F00EB67FB /* Helpers */,
 				7720A14723153FD700EB67FB /* Models */,
-				77B6CBEF23143B37003AE84C /* AppDelegate.swift */,
-				77B6CBF623143B39003AE84C /* Assets.xcassets */,
 				7720A0FE23153DAB00EB67FB /* Controllers */,
+				7720A0FF23153DD900EB67FB /* Views */,
 				7720A14023153E8400EB67FB /* customTabBar */,
 				7720A10223153E6000EB67FB /* Fonts */,
+				77B6CBF623143B39003AE84C /* Assets.xcassets */,
 				77B6CBFB23143B39003AE84C /* Info.plist */,
-				7720A0FF23153DD900EB67FB /* Views */,
 			);
 			path = Events;
 			sourceTree = "<group>";
