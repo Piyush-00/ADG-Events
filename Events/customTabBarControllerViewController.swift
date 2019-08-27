@@ -6,6 +6,9 @@
 //  Copyright © 2019 ADG-VIT. All rights reserved.
 //
 
+
+// https://github.com/Ramotion/animated-tab-bar/issues/191
+
 import UIKit
 
 class customTabBarControllerViewController: UITabBarController, UITabBarControllerDelegate {
@@ -49,7 +52,7 @@ class customTabBarControllerViewController: UITabBarController, UITabBarControll
         let tabBarItemSize = CGSize(width: tabBar.frame.width / numberOfItems, height: tabBar.frame.height-1)
         
         
-        tabBar.selectionIndicatorImage = UIImage.imageWithColor(color: #colorLiteral(red: 0.8862745098, green: 0.4117647059, blue: 0.4117647059, alpha: 1) , size: tabBarItemSize).resizableImage(withCapInsets: UIEdgeInsets(top: 1, left: 0, bottom: 0, right: 0))
+        tabBar.selectionIndicatorImage = UIImage.imageWithColor(color: #colorLiteral(red: 0.8862745098, green: 0.4117647059, blue: 0.4117647059, alpha: 1) , size: tabBarItemSize)
         
 //        // remove default border
 //        tabBar.frame.size.width = self.view.frame.width + 4

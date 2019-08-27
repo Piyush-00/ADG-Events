@@ -36,7 +36,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="2rm-3L-u1M"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="test" id="D7b-Dz-6Bc"/>
+                    <tabBarItem key="tabBarItem" title="" id="D7b-Dz-6Bc"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aF7-Ju-e3h" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -95,7 +95,4 @@
             <point key="canvasLocation" x="-656" y="1047"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="test" width="14" height="16"/>
-    </resources>
 </document>
