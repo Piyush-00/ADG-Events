@@ -41,6 +41,9 @@
 		7720A14223153EDB00EB67FB /* aboutEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7720A14123153EDB00EB67FB /* aboutEventViewController.swift */; };
 		7720A14423153F1100EB67FB /* timeLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7720A14323153F1100EB67FB /* timeLineViewController.swift */; };
 		7720A14623153FD000EB67FB /* profileDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7720A14523153FD000EB67FB /* profileDataModel.swift */; };
+		7720A14C23154EEA00EB67FB /* NetworkEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7720A14B23154EEA00EB67FB /* NetworkEngine.swift */; };
+		7720A14E23154EFF00EB67FB /* NetworkRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7720A14D23154EFF00EB67FB /* NetworkRoutes.swift */; };
+		7720A15023154F5A00EB67FB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7720A14F23154F5A00EB67FB /* Constants.swift */; };
 		77B6CBF023143B37003AE84C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B6CBEF23143B37003AE84C /* AppDelegate.swift */; };
 		77B6CBF523143B37003AE84C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77B6CBF323143B37003AE84C /* Main.storyboard */; };
 		77B6CBF723143B39003AE84C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77B6CBF623143B39003AE84C /* Assets.xcassets */; };
@@ -85,6 +88,9 @@
 		7720A14123153EDB00EB67FB /* aboutEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = aboutEventViewController.swift; path = Events/Controllers/aboutEventViewController.swift; sourceTree = SOURCE_ROOT; };
 		7720A14323153F1100EB67FB /* timeLineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timeLineViewController.swift; sourceTree = "<group>"; };
 		7720A14523153FD000EB67FB /* profileDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileDataModel.swift; sourceTree = "<group>"; };
+		7720A14B23154EEA00EB67FB /* NetworkEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkEngine.swift; sourceTree = "<group>"; };
+		7720A14D23154EFF00EB67FB /* NetworkRoutes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRoutes.swift; sourceTree = "<group>"; };
+		7720A14F23154F5A00EB67FB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		77B6CBEC23143B37003AE84C /* Events.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Events.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77B6CBEF23143B37003AE84C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77B6CBF423143B37003AE84C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -187,6 +193,9 @@
 			isa = PBXGroup;
 			children = (
 				7720A14523153FD000EB67FB /* profileDataModel.swift */,
+				7720A14B23154EEA00EB67FB /* NetworkEngine.swift */,
+				7720A14D23154EFF00EB67FB /* NetworkRoutes.swift */,
+				7720A14F23154F5A00EB67FB /* Constants.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -399,12 +408,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7720A14E23154EFF00EB67FB /* NetworkRoutes.swift in Sources */,
 				77B6CC08231441EE003AE84C /* aboutUsViewController.swift in Sources */,
 				77B6CBF023143B37003AE84C /* AppDelegate.swift in Sources */,
 				7720A14623153FD000EB67FB /* profileDataModel.swift in Sources */,
 				77B6CC0423144110003AE84C /* customTabBarControllerViewController.swift in Sources */,
+				7720A15023154F5A00EB67FB /* Constants.swift in Sources */,
 				7720A14423153F1100EB67FB /* timeLineViewController.swift in Sources */,
 				7720A14223153EDB00EB67FB /* aboutEventViewController.swift in Sources */,
+				7720A14C23154EEA00EB67FB /* NetworkEngine.swift in Sources */,
 				77B6CC06231441D4003AE84C /* profileViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
