@@ -183,12 +183,12 @@
 			path = customTabBar;
 			sourceTree = "<group>";
 		};
-		7720A14723153FD700EB67FB /* Models */ = {
+		7720A14723153FD700EB67FB /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				7720A14523153FD000EB67FB /* profileDataModel.swift */,
 			);
-			path = Models;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		7720A1482315402F00EB67FB /* Helpers */ = {
@@ -221,7 +221,7 @@
 			isa = PBXGroup;
 			children = (
 				7720A1482315402F00EB67FB /* Helpers */,
-				7720A14723153FD700EB67FB /* Models */,
+				7720A14723153FD700EB67FB /* Model */,
 				7720A0FE23153DAB00EB67FB /* Controllers */,
 				7720A0FF23153DD900EB67FB /* Views */,
 				7720A14023153E8400EB67FB /* customTabBar */,
@@ -246,7 +246,6 @@
 				66C242474CB88B499EBF8C6F /* Pods-Events.debug.xcconfig */,
 				B92D8FE078D22FE0D2E1EA79 /* Pods-Events.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
