@@ -33,6 +33,12 @@
                     <view key="view" contentMode="scaleToFill" id="MK1-eX-fKh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="profileimage" translatesAutoresizingMaskIntoConstraints="NO" id="kA4-eA-kOW">
+                                <rect key="frame" x="87" y="127" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="2rm-3L-u1M"/>
                     </view>
@@ -42,10 +48,10 @@
             </objects>
             <point key="canvasLocation" x="187" y="1890"/>
         </scene>
-        <!--View Controller-->
+        <!--About Event View Controller-->
         <scene sceneID="hOM-uh-Wsq">
             <objects>
-                <viewController id="zdN-7W-qdC" sceneMemberID="viewController">
+                <viewController id="zdN-7W-qdC" customClass="aboutEventViewController" customModule="Events" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2bT-e2-zmc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -58,10 +64,10 @@
             </objects>
             <point key="canvasLocation" x="684" y="1067"/>
         </scene>
-        <!--View Controller-->
+        <!--Time Line View Controller-->
         <scene sceneID="aMt-5P-chm">
             <objects>
-                <viewController id="KZQ-JI-4X4" sceneMemberID="viewController">
+                <viewController id="KZQ-JI-4X4" customClass="timeLineViewController" customModule="Events" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vB8-ZE-jAu">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -95,4 +101,7 @@
             <point key="canvasLocation" x="-656" y="1047"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="profileimage" width="102" height="102"/>
+    </resources>
 </document>
