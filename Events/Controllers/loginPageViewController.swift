@@ -41,6 +41,15 @@ class loginPageViewController: UIViewController, UITextFieldDelegate {
         NotificationCenter.default.addObserver(self, selector: #selector(keyBoardWillHide(notification:)), name: UIResponder.keyboardWillHideNotification, object: nil)
     }
     
+    //MARK:- Login Button Action
+    
+    @IBAction func loginButton(_ sender: UIButton) {
+        
+        if passTextField.text != "" && regNoTextField.text != "" {
+            
+        }
+        
+    }
     
     //MARK:- TextField Delegate Method
     

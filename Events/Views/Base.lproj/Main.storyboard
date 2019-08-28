@@ -185,6 +185,7 @@
                                     <color key="titleColor" red="0.10588235294117647" green="0.49803921568627452" blue="0.88627450980392153" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="loginButton:" destination="lYb-Xm-YaV" eventType="touchUpInside" id="fJ3-x4-0gH"/>
                                     <segue destination="gNK-Zk-F4l" kind="show" id="See-bz-pez"/>
                                 </connections>
                             </button>
