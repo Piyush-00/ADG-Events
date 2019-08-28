@@ -48,9 +48,7 @@
 		77B6CBF523143B37003AE84C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77B6CBF323143B37003AE84C /* Main.storyboard */; };
 		77B6CBF723143B39003AE84C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77B6CBF623143B39003AE84C /* Assets.xcassets */; };
 		77B6CBFA23143B39003AE84C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77B6CBF823143B39003AE84C /* LaunchScreen.storyboard */; };
-		77B6CC0423144110003AE84C /* customTabBarControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B6CC0323144110003AE84C /* customTabBarControllerViewController.swift */; };
 		77B6CC06231441D4003AE84C /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B6CC05231441D4003AE84C /* profileViewController.swift */; };
-		77B6CC08231441EE003AE84C /* aboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B6CC07231441EE003AE84C /* aboutUsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -97,9 +95,7 @@
 		77B6CBF623143B39003AE84C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77B6CBF923143B39003AE84C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77B6CBFB23143B39003AE84C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		77B6CC0323144110003AE84C /* customTabBarControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customTabBarControllerViewController.swift; sourceTree = "<group>"; };
 		77B6CC05231441D4003AE84C /* profileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileViewController.swift; sourceTree = "<group>"; };
-		77B6CC07231441EE003AE84C /* aboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutUsViewController.swift; sourceTree = "<group>"; };
 		B92D8FE078D22FE0D2E1EA79 /* Pods-Events.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Events.release.xcconfig"; path = "Target Support Files/Pods-Events/Pods-Events.release.xcconfig"; sourceTree = "<group>"; };
 		EB6E450CAA3D3B500D490062 /* Pods_Events.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Events.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -120,7 +116,6 @@
 			isa = PBXGroup;
 			children = (
 				7720A14323153F1100EB67FB /* timeLineViewController.swift */,
-				77B6CC07231441EE003AE84C /* aboutUsViewController.swift */,
 				7720A14123153EDB00EB67FB /* aboutEventViewController.swift */,
 				77B6CC05231441D4003AE84C /* profileViewController.swift */,
 			);
@@ -181,14 +176,6 @@
 			path = "SF Pro";
 			sourceTree = "<group>";
 		};
-		7720A14023153E8400EB67FB /* customTabBar */ = {
-			isa = PBXGroup;
-			children = (
-				77B6CC0323144110003AE84C /* customTabBarControllerViewController.swift */,
-			);
-			path = customTabBar;
-			sourceTree = "<group>";
-		};
 		7720A14723153FD700EB67FB /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -233,7 +220,6 @@
 				7720A14723153FD700EB67FB /* Model */,
 				7720A0FE23153DAB00EB67FB /* Controllers */,
 				7720A0FF23153DD900EB67FB /* Views */,
-				7720A14023153E8400EB67FB /* customTabBar */,
 				7720A10223153E6000EB67FB /* Fonts */,
 				77B6CBF623143B39003AE84C /* Assets.xcassets */,
 				77B6CBFB23143B39003AE84C /* Info.plist */,
@@ -409,10 +395,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7720A14E23154EFF00EB67FB /* NetworkRoutes.swift in Sources */,
-				77B6CC08231441EE003AE84C /* aboutUsViewController.swift in Sources */,
 				77B6CBF023143B37003AE84C /* AppDelegate.swift in Sources */,
 				7720A14623153FD000EB67FB /* profileDataModel.swift in Sources */,
-				77B6CC0423144110003AE84C /* customTabBarControllerViewController.swift in Sources */,
 				7720A15023154F5A00EB67FB /* Constants.swift in Sources */,
 				7720A14423153F1100EB67FB /* timeLineViewController.swift in Sources */,
 				7720A14223153EDB00EB67FB /* aboutEventViewController.swift in Sources */,

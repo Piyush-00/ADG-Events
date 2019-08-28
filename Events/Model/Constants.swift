@@ -11,4 +11,5 @@ import Foundation
 
 class Constants {
     public static let baseURL = "https://adg.events.herokuapp.com/"
+    public static let authenticationURL = "https://adg.events.herokuapp.com/"
 }
