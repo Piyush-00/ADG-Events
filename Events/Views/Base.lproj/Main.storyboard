@@ -105,7 +105,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="278"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Participants" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="X2j-6I-HW0">
-                                        <rect key="frame" x="20" y="131" width="310" height="69"/>
+                                        <rect key="frame" x="26.5" y="129.5" width="322.5" height="70.5"/>
                                         <fontDescription key="fontDescription" name="SFProDisplay-Bold" family="SF Pro Display" pointSize="59"/>
                                         <color key="textColor" red="0.10588235294117647" green="0.49803921568627452" blue="0.88627450980392153" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -114,25 +114,24 @@
                                 <color key="backgroundColor" red="0.0" green="0.039215686274509803" blue="0.16862745098039217" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="PHc-yc-HJM" secondAttribute="height" multiplier="414:307" id="1fS-sw-ac6"/>
-                                    <constraint firstAttribute="bottom" secondItem="X2j-6I-HW0" secondAttribute="bottom" constant="78" id="7Wh-kF-CE8"/>
-                                    <constraint firstItem="X2j-6I-HW0" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="PHc-yc-HJM" secondAttribute="leading" constant="20" symbolic="YES" id="aCa-Qm-YJi"/>
-                                    <constraint firstAttribute="trailing" secondItem="X2j-6I-HW0" secondAttribute="trailing" constant="45" id="h8C-Ec-Ak5"/>
+                                    <constraint firstAttribute="bottom" secondItem="X2j-6I-HW0" secondAttribute="bottom" constant="78" id="BSd-wn-ceP"/>
+                                    <constraint firstItem="X2j-6I-HW0" firstAttribute="centerX" secondItem="PHc-yc-HJM" secondAttribute="centerX" id="lc9-AC-hcq"/>
                                 </constraints>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="lbe-7h-DcZ">
-                                <rect key="frame" x="30" y="378" width="315" height="146"/>
+                                <rect key="frame" x="30" y="378" width="315" height="147"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="uwl-gF-i7s">
-                                        <rect key="frame" x="0.0" y="0.0" width="315" height="48"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="315" height="48.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ENTER YOUR REGISTRATION NUMBER" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mgs-Wg-srp">
-                                                <rect key="frame" x="0.0" y="0.0" width="315" height="19"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="315" height="19.5"/>
                                                 <fontDescription key="fontDescription" name="SFProDisplay-Semibold" family="SF Pro Display" pointSize="16"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Registration Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jgV-jh-N0P">
-                                                <rect key="frame" x="0.0" y="27" width="315" height="21"/>
+                                                <rect key="frame" x="0.0" y="27.5" width="315" height="21"/>
                                                 <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits"/>
@@ -146,16 +145,16 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="id4-Yj-rTU">
-                                        <rect key="frame" x="0.0" y="98" width="315" height="48"/>
+                                        <rect key="frame" x="0.0" y="98.5" width="315" height="48.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ENTER YOUR PASSWORD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UPC-Cg-vCR">
-                                                <rect key="frame" x="0.0" y="0.0" width="315" height="19"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="315" height="19.5"/>
                                                 <fontDescription key="fontDescription" name="SFProDisplay-Semibold" family="SF Pro Display" pointSize="16"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gMr-v8-g1W">
-                                                <rect key="frame" x="0.0" y="27" width="315" height="21"/>
+                                                <rect key="frame" x="0.0" y="27.5" width="315" height="21"/>
                                                 <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits"/>
@@ -177,7 +176,7 @@
                                 </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CWL-8m-GCe">
-                                <rect key="frame" x="105" y="584" width="165" height="50"/>
+                                <rect key="frame" x="105" y="585" width="165" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="CWL-8m-GCe" secondAttribute="height" multiplier="33:10" id="GMp-2P-uTc"/>
                                 </constraints>
