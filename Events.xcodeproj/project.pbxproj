@@ -49,6 +49,7 @@
 		77B6CBF723143B39003AE84C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77B6CBF623143B39003AE84C /* Assets.xcassets */; };
 		77B6CBFA23143B39003AE84C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77B6CBF823143B39003AE84C /* LaunchScreen.storyboard */; };
 		77B6CC06231441D4003AE84C /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B6CC05231441D4003AE84C /* profileViewController.swift */; };
+		77F1FF9C2316D83000DA4530 /* loginPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F1FF9B2316D83000DA4530 /* loginPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -96,6 +97,7 @@
 		77B6CBF923143B39003AE84C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77B6CBFB23143B39003AE84C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77B6CC05231441D4003AE84C /* profileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileViewController.swift; sourceTree = "<group>"; };
+		77F1FF9B2316D83000DA4530 /* loginPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginPageViewController.swift; sourceTree = "<group>"; };
 		B92D8FE078D22FE0D2E1EA79 /* Pods-Events.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Events.release.xcconfig"; path = "Target Support Files/Pods-Events/Pods-Events.release.xcconfig"; sourceTree = "<group>"; };
 		EB6E450CAA3D3B500D490062 /* Pods_Events.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Events.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -115,6 +117,7 @@
 		7720A0FE23153DAB00EB67FB /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				77F1FF9B2316D83000DA4530 /* loginPageViewController.swift */,
 				7720A14323153F1100EB67FB /* timeLineViewController.swift */,
 				7720A14123153EDB00EB67FB /* aboutEventViewController.swift */,
 				77B6CC05231441D4003AE84C /* profileViewController.swift */,
@@ -400,6 +403,7 @@
 				7720A15023154F5A00EB67FB /* Constants.swift in Sources */,
 				7720A14423153F1100EB67FB /* timeLineViewController.swift in Sources */,
 				7720A14223153EDB00EB67FB /* aboutEventViewController.swift in Sources */,
+				77F1FF9C2316D83000DA4530 /* loginPageViewController.swift in Sources */,
 				7720A14C23154EEA00EB67FB /* NetworkEngine.swift in Sources */,
 				77B6CC06231441D4003AE84C /* profileViewController.swift in Sources */,
 			);
