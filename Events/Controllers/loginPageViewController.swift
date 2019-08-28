@@ -13,6 +13,7 @@ class loginPageViewController: UIViewController, UITextFieldDelegate {
     
     //MARK:- Outlets
     
+    @IBOutlet weak var stackView: UIStackView!
     @IBOutlet weak var passTextField: UITextField!
     @IBOutlet weak var regNoTextField: UITextField!
     @IBOutlet weak var stackTop: NSLayoutConstraint!
@@ -55,15 +56,17 @@ class loginPageViewController: UIViewController, UITextFieldDelegate {
     
     @objc func keyBoardWillShow(notification: Notification){
         
-            self.stackTop.constant = 5
-            UIView.animate(withDuration: 0.5, animations: {
-                self.view.layoutIfNeeded()
-            })
+        stackView.spacing = 20.0
+        stackTop.constant = 5.0
+        UIView.animate(withDuration: 0.5, animations: {
+            self.view.layoutIfNeeded()
+        })
     }
     
     @objc func keyBoardWillHide(notification: Notification){
         
-        self.stackTop.constant = 100.0
+        stackTop.constant = 100.0
+        stackView.spacing = 50.0
         UIView.animate(withDuration: 0.5, animations: {
             self.view.layoutIfNeeded()
         })

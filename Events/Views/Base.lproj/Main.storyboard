@@ -207,6 +207,7 @@
                         <outlet property="passTextField" destination="gMr-v8-g1W" id="vKw-lr-tl1"/>
                         <outlet property="regNoTextField" destination="jgV-jh-N0P" id="tlM-7h-p2Z"/>
                         <outlet property="stackTop" destination="Xjd-8x-3wx" id="MfD-t8-3EF"/>
+                        <outlet property="stackView" destination="lbe-7h-DcZ" id="HMz-7J-RXQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dYS-HI-yie" userLabel="First Responder" sceneMemberID="firstResponder"/>
