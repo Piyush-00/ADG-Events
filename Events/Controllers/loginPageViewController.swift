@@ -27,28 +27,24 @@ class loginPageViewController: UIViewController, UITextFieldDelegate {
     
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        
         textField.resignFirstResponder()
         return true
+        
     }
     
 
     @objc func keyBoardWillShow(notification: Notification){
-        if let userInfo = notification.userInfo as? Dictionary<String, AnyObject>{
-            let frame = userInfo[UIResponder.keyboardFrameEndUserInfoKey]
-            let keyBoardRect = frame?.cgRectValue
-            if let keyBoardHeight = keyBoardRect?.height {
-                self.stackTop.constant = 5
-                
-                UIView.animate(withDuration: 0.5, animations: {
-                    self.view.layoutIfNeeded()
-                })
-            }
-        }
+        
+            self.stackTop.constant = 5
+            UIView.animate(withDuration: 0.5, animations: {
+                self.view.layoutIfNeeded()
+            })
     }
     
     @objc func keyBoardWillHide(notification: Notification){
         
-        self.stackTop.constant = 60.0
+        self.stackTop.constant = 100.0
         UIView.animate(withDuration: 0.5, animations: {
             self.view.layoutIfNeeded()
         })
