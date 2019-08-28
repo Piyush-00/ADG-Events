@@ -10,21 +10,38 @@ import UIKit
 
 class loginPageViewController: UIViewController, UITextFieldDelegate {
 
+    
+    //MARK:- Outlets
+    
     @IBOutlet weak var passTextField: UITextField!
     @IBOutlet weak var regNoTextField: UITextField!
     @IBOutlet weak var stackTop: NSLayoutConstraint!
+    
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // TextField Delegatges
         passTextField.delegate = self
         regNoTextField.delegate = self
         
-        NotificationCenter.default.addObserver(self, selector: #selector(keyBoardWillShow(notification:)), name: UIResponder.keyboardWillShowNotification, object: nil)
-        NotificationCenter.default.addObserver(self, selector: #selector(keyBoardWillHide(notification:)), name: UIResponder.keyboardWillHideNotification, object: nil)
-        
-        // Do any additional setup after loading the view.
+        //calling notification center
+        notificationCenter()
     }
     
+    
+    //MARK:- Notification Center setup
+    
+    func notificationCenter() {
+        NotificationCenter.default.addObserver(self, selector: #selector(keyBoardWillShow(notification:)), name: UIResponder.keyboardWillShowNotification, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(keyBoardWillHide(notification:)), name: UIResponder.keyboardWillHideNotification, object: nil)
+    }
+    
+    
+    //MARK:- TextField Delegate Method
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         
@@ -34,6 +51,8 @@ class loginPageViewController: UIViewController, UITextFieldDelegate {
     }
     
 
+    //MARK:- Keyboard will show/hide notificatin calling functions
+    
     @objc func keyBoardWillShow(notification: Notification){
         
             self.stackTop.constant = 5
