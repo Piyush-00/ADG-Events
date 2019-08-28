@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lYb-Xm-YaV">
-    <device id="retina6_5" orientation="portrait">
+    <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -13,6 +13,9 @@
         <array key="SF-Pro-Display-Bold.otf">
             <string>SFProDisplay-Bold</string>
         </array>
+        <array key="SF-Pro-Display-Semibold.otf">
+            <string>SFProDisplay-Semibold</string>
+        </array>
     </customFonts>
     <scenes>
         <!--Time Line View Controller-->
@@ -20,7 +23,7 @@
             <objects>
                 <viewController id="UjV-DI-HJr" customClass="timeLineViewController" customModule="Events" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gii-Au-aEU">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Complete timeline after deleting this" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4fm-8G-J0Z">
@@ -45,7 +48,7 @@
             <objects>
                 <viewController id="1cz-ze-i5f" customClass="aboutEventViewController" customModule="Events" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MK1-eX-fKh">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Complete about event after deleting this" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H2f-iN-bGn">
@@ -70,7 +73,7 @@
             <objects>
                 <viewController id="zdN-7W-qdC" customClass="profileViewController" customModule="Events" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2bT-e2-zmc">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Complete Profile after deleting this" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9re-mg-Krf">
@@ -95,14 +98,14 @@
             <objects>
                 <viewController id="lYb-Xm-YaV" customClass="loginPageViewController" customModule="Events" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8sc-UN-d4t">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PHc-yc-HJM">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="307"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="278"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Participants" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="X2j-6I-HW0">
-                                        <rect key="frame" x="46" y="158" width="323" height="71"/>
+                                        <rect key="frame" x="46" y="129.5" width="284" height="70.5"/>
                                         <fontDescription key="fontDescription" name="SFProDisplay-Bold" family="SF Pro Display" pointSize="59"/>
                                         <color key="textColor" red="0.10588235294117647" green="0.49803921568627452" blue="0.88627450980392153" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -116,12 +119,88 @@
                                     <constraint firstAttribute="trailing" secondItem="X2j-6I-HW0" secondAttribute="trailing" constant="45" id="h8C-Ec-Ak5"/>
                                 </constraints>
                             </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="lbe-7h-DcZ">
+                                <rect key="frame" x="30" y="378" width="315" height="147"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="uwl-gF-i7s">
+                                        <rect key="frame" x="0.0" y="0.0" width="315" height="48.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ENTER YOUR REGISTRATION NUMBER" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mgs-Wg-srp">
+                                                <rect key="frame" x="0.0" y="0.0" width="315" height="19.5"/>
+                                                <fontDescription key="fontDescription" name="SFProDisplay-Semibold" family="SF Pro Display" pointSize="16"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Registration Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jgV-jh-N0P">
+                                                <rect key="frame" x="0.0" y="27.5" width="315" height="21"/>
+                                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="jgV-jh-N0P" secondAttribute="trailing" id="PvS-qI-02r"/>
+                                            <constraint firstItem="jgV-jh-N0P" firstAttribute="leading" secondItem="uwl-gF-i7s" secondAttribute="leading" id="R8B-nH-GDD"/>
+                                            <constraint firstAttribute="trailing" secondItem="mgs-Wg-srp" secondAttribute="trailing" id="kay-wS-gRs"/>
+                                            <constraint firstItem="mgs-Wg-srp" firstAttribute="leading" secondItem="uwl-gF-i7s" secondAttribute="leading" id="mQc-xN-PJc"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="id4-Yj-rTU">
+                                        <rect key="frame" x="0.0" y="98.5" width="315" height="48.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ENTER YOUR PASSWORD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UPC-Cg-vCR">
+                                                <rect key="frame" x="0.0" y="0.0" width="315" height="19.5"/>
+                                                <fontDescription key="fontDescription" name="SFProDisplay-Semibold" family="SF Pro Display" pointSize="16"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gMr-v8-g1W">
+                                                <rect key="frame" x="0.0" y="27.5" width="315" height="21"/>
+                                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="UPC-Cg-vCR" firstAttribute="leading" secondItem="id4-Yj-rTU" secondAttribute="leading" id="0uP-O2-m9i"/>
+                                            <constraint firstAttribute="trailing" secondItem="gMr-v8-g1W" secondAttribute="trailing" id="2YH-bX-jNE"/>
+                                            <constraint firstItem="gMr-v8-g1W" firstAttribute="leading" secondItem="id4-Yj-rTU" secondAttribute="leading" id="HFi-35-hSC"/>
+                                            <constraint firstAttribute="trailing" secondItem="UPC-Cg-vCR" secondAttribute="trailing" id="QOD-rO-fsV"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="uwl-gF-i7s" secondAttribute="trailing" id="73n-r5-0B9"/>
+                                    <constraint firstItem="uwl-gF-i7s" firstAttribute="leading" secondItem="lbe-7h-DcZ" secondAttribute="leading" id="EOV-bZ-Pj8"/>
+                                    <constraint firstItem="id4-Yj-rTU" firstAttribute="leading" secondItem="lbe-7h-DcZ" secondAttribute="leading" id="aQa-IT-2eN"/>
+                                    <constraint firstAttribute="trailing" secondItem="id4-Yj-rTU" secondAttribute="trailing" id="m6q-CI-MgE"/>
+                                </constraints>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CWL-8m-GCe">
+                                <rect key="frame" x="105" y="585" width="165" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="CWL-8m-GCe" secondAttribute="height" multiplier="33:10" id="GMp-2P-uTc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="LOGIN" backgroundImage="loginB">
+                                    <color key="titleColor" red="0.10588235294117647" green="0.49803921568627452" blue="0.88627450980392153" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="gNK-Zk-F4l" kind="show" id="See-bz-pez"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="lbe-7h-DcZ" firstAttribute="centerX" secondItem="8sc-UN-d4t" secondAttribute="centerX" id="2Ek-1P-SQt"/>
                             <constraint firstItem="PHc-yc-HJM" firstAttribute="leading" secondItem="2IX-qC-IJH" secondAttribute="leading" id="5t4-go-rj5"/>
+                            <constraint firstItem="CWL-8m-GCe" firstAttribute="centerX" secondItem="8sc-UN-d4t" secondAttribute="centerX" id="6s4-UR-u5Q"/>
                             <constraint firstItem="PHc-yc-HJM" firstAttribute="top" secondItem="8sc-UN-d4t" secondAttribute="top" id="8Ud-Gc-hTs"/>
+                            <constraint firstItem="CWL-8m-GCe" firstAttribute="top" secondItem="lbe-7h-DcZ" secondAttribute="bottom" constant="60" id="A8c-Me-ekA"/>
                             <constraint firstItem="PHc-yc-HJM" firstAttribute="trailing" secondItem="2IX-qC-IJH" secondAttribute="trailing" id="HT9-5t-A6a"/>
+                            <constraint firstItem="lbe-7h-DcZ" firstAttribute="leading" secondItem="2IX-qC-IJH" secondAttribute="leading" constant="30" id="RTE-wt-VA4"/>
+                            <constraint firstItem="lbe-7h-DcZ" firstAttribute="top" secondItem="PHc-yc-HJM" secondAttribute="bottom" constant="100" id="Xjd-8x-3wx"/>
+                            <constraint firstItem="2IX-qC-IJH" firstAttribute="trailing" secondItem="lbe-7h-DcZ" secondAttribute="trailing" constant="30" id="xNo-S1-Imu"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="2IX-qC-IJH"/>
                     </view>
@@ -152,6 +231,7 @@
     </scenes>
     <resources>
         <image name="calender" width="32" height="32"/>
+        <image name="loginB" width="165" height="50"/>
         <image name="profile" width="30" height="30"/>
         <image name="timeline" width="33" height="33"/>
     </resources>
