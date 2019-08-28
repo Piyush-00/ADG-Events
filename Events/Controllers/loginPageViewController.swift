@@ -10,9 +10,15 @@ import UIKit
 
 class loginPageViewController: UIViewController {
 
+    @IBOutlet weak var passTextField: UITextField!
+    @IBOutlet weak var regNoTextField: UITextField!
+    @IBOutlet weak var stackTop: NSLayoutConstraint!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(keyBoardWillShow(notification:)), name: NSNotification.Name.UIKeyboardWillShow, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(keyBoardWillHide(notification:)), name: NSNotification.Name.UIKeyboardWillHide, object: nil)
+        
         // Do any additional setup after loading the view.
     }
     
