@@ -22,9 +22,14 @@ class profileViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    
+    // Hide Status Bar
+    override var prefersStatusBarHidden: Bool {
+        return true
+    }
 
+    
 }
-
 
 //extension UIView {
 //
