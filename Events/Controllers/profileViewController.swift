@@ -11,6 +11,11 @@ import UIKit
 class profileViewController: UIViewController {
 
     
+    //MARK:- Outlets
+    
+    @IBOutlet weak var Name: UILabel!
+    @IBOutlet weak var regnumber: UILabel!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()

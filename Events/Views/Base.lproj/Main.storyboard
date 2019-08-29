@@ -344,6 +344,10 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="profile" id="4ph-VS-ClZ"/>
                     <size key="freeformSize" width="414" height="1250"/>
+                    <connections>
+                        <outlet property="Name" destination="g4e-wZ-TnZ" id="TXB-lp-RZP"/>
+                        <outlet property="regnumber" destination="gU3-ZZ-cgo" id="muK-Y0-Bnt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="geb-Cw-Jqd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
